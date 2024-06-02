@@ -1,6 +1,6 @@
 #include <stdio.h>
+//comentario//
 #include <stdlib.h>
-
 #define quantidade_de_produtos 5
 
 int soma_valores_dos_produtos(int *valores_dos_produtos);
@@ -40,8 +40,6 @@ int soma_valores_dos_produtos(int *valores_dos_produtos)
     }
 
     return soma;
-}
-
 int tem_dinheiro_suficiente(int meu_dinheiro, int soma_da_compra)
 {
     if (meu_dinheiro >= soma_da_compra)
